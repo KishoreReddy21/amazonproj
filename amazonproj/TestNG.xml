@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Amazon">
+
+<listeners>
+<listener class-name="com.amazon1.utilities.Reporting" />
+</listeners>
+	<test name="Amazon Test">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<!--<class name="com.amazon1.testCases.TC1_RegistrationSuccess" />  -->
+			<!--<class name="com.amazon1.testCases.TC2_RegistrationFail" /> -->
+			
+			
+			<class name="com.amazon1.testCases.TC3_SignIn" />
+			
+		</classes>
+	</test>
+</suite>
