@@ -40,7 +40,7 @@ public class TC3_SignIn extends BaseClass {
 		 else
 		 {
 		 captureScreen("SignIN Success");
-		 op.EnterSearchBox(stext);
+		 op.EnterSearchBox(product);
 		 
 		 
 		
